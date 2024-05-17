@@ -6,7 +6,9 @@ use App\Http\Controllers\Controller;
 use App\Http\Resources\TravelResource;
 use App\Models\Travel;
 
-
+/**
+ * @group Public endpoints
+ */
 class TravelController extends Controller
 {
     public function index()

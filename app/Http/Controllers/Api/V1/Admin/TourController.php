@@ -7,7 +7,9 @@ use App\Http\Requests\TourRequest;
 use App\Http\Resources\TourResource;
 use App\Models\Travel;
 
-
+/**
+ * @group Admin endpoints
+ */
 class TourController extends Controller
 {
     public function store(TourRequest $request, Travel $travel)

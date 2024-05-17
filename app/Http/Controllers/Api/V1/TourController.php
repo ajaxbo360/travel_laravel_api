@@ -7,6 +7,9 @@ use App\Http\Requests\TourListRequest;
 use App\Http\Resources\TourResource;
 use App\Models\Travel;
 
+/**
+ * @group Public endpoints
+ */
 class TourController extends Controller
 {
 
